@@ -1,0 +1,797 @@
+% Copyright (c) Antti Järvinen 2022. See licensing section for details,
+% shortly CC-BY-SA. For html or pdf output you'll need latex package
+% hyperref to have external links working.
+\documentclass{article}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage[colorlinks = true,
+            linkcolor = blue,
+            urlcolor  = blue,
+            citecolor = blue,
+            anchorcolor = blue]{hyperref}
+
+% define hyperlink command with colours:
+\newcommand{\chref}[3][blue]{\href{#2}{\color{#1}{#3}}}%
+
+\begin{document}
+
+\title{Between a rock and a hard place}
+\author{Antti J\"arvinen \\ antti.jarvinen@katiska.org}
+\date{July 2022}
+
+\maketitle
+
+\begin{abstract}
+Everything you read in here is most likely all wrong, see
+\chref{https://en.wikipedia.org/wiki/Karl_Popper}{Karl Popper} for details.
+
+Forms of life are units able to make copies of themselves. Co-operation between life-forms
+makes the co-operative unit to become life-form it its own. In Earth the result is multiple
+layers of co-operating life-forms, where humans are in one layer. Understanding the benefits
+of co-operation and constraints set by adjacent layers should help humans to decide how to
+co-operate efficiently without sacrificing friendliness, sustainability, happiness or love. 
+\end{abstract}
+
+\section{Licensing of this article}
+This article is copyright \copyright Antti Järvinen 2022. 
+This article may be distributed according to limitations of
+\chref{https://creativecommons.org/}{creative commons}
+license \chref{https://creativecommons.org/licenses/by-sa/4.0/}{Attribution-ShareAlike} that
+roughly gives every recipient of this work right to copy and mix contents of this article as
+they wish. Copies and works deriving from this article must give credit to original
+author. Copies and derivative works can be used commercially but it must be made clear
+to recipients of those copies and derivate works that same licensing still apply e.g. copies
+may be given away free of charge and the derivative work may be used in yet another
+derivate work under same license. PDF version of
+\chref{http://katiska.org/~costello/between.pdf}{this document is available here}.
+
+\section{Life does not exist}
+Ordinary matter, things that we can touch, things that are heavy to lift, things that
+we feel as breeze in our skin while we ski against wind in freezing temperature are all
+made of elementary particles. This is best understanding of current state of affairs
+that humankind has at the time of writing. As K. Popper in previous chapter pointed out,
+this is subject to change. Everyones contribution to better understanding of the world
+as it is is required and nobody should be shy of voicing his/hers opinion - spectacular
+findings may have already been found, thing just might be that nobody as enough courage
+to speak them out. Making funny assumptions about world or life is no crime, if they
+turn out to be false then it is ok. That is how science actually works - there are
+assumptions that are proven false. Those assumptions that are not proven false after
+some time are considered "maybe true". This is the best that science can achieve.
+
+Ordinary matter is made of elementary particles
+\chref{https://en.wikipedia.org/wiki/Up_quark}{Up},
+\chref{https://en.wikipedia.org/wiki/Down_quark}{Down} and
+\chref{https://en.wikipedia.org/wiki/Electron}{Electron}. Up and Down quarks join together
+to form sub-atomic particles \chref{https://en.wikipedia.org/wiki/Proton}{Proton} and
+\chref{https://en.wikipedia.org/wiki/Neutron}{Neutron}. Protons and neutrons together with
+elementary particle electron join together in partially understood rules to produce
+\chref{https://en.wikipedia.org/wiki/Atom}{atoms} whose
+stable combinations are listed in \chref{https://en.wikipedia.org/wiki/Periodic_table}{periodic table} of atoms.
+
+The "forces" that glue quarks into sub-atomic particles are also particles, named
+\chref{https://en.wikipedia.org/wiki/Boson}{Bosons}.
+
+The "force" that glues sub-atomic particles into atoms is electromagnetic attraction
+between atomic nuclei and electrons.
+
+Atoms can get arranged in structures called
+\chref{https://en.wikipedia.org/wiki/Molecule}{Molecules} and they in turn are
+held together by chemical bonds, largely dictated by behavior and number of electrons
+of atoms in molecule.
+
+Observation here is that, matter has "layers", each layer having different
+constituents and interactions. 
+\begin{table}[h!]
+\begin{center}
+\begin{tabular}{l|l|l}
+\textbf{Constituents} & \textbf{Forces} & \textbf{Result of layer} \\
+\hline
+Quarks & Bosons & Sub-atomic particles \\
+Sub-atomic particles + Electron & Electromagnetic attraction & Atoms \\
+Atoms & Chemical bonds & Molecules \\
+\end{tabular}
+\caption{Layers of particles that ordinary matter is made of}
+\end{center}
+\end{table}
+While it can be argued that "everything is made of elementary particles only" it is
+also very useful to identify these layers - when smaller particles are grouped together
+to produce a "2nd level" particle the "new" particle starts having different kind
+of interactions between other particles in the same layer. For atoms be behavior
+between atoms is largely dictated by electrons in outermost electron shell. Also new
+properties may emerge: states like gaseous, liquid and solid may be identified in
+atoms but make little sense if applied to fundamental particles. 
+\subsection{Chemistry}
+\chref{https://en.wikipedia.org/wiki/Chemistry}{Chemistry} as a science studies how atoms
+join together to produce molecules.
+It studies which combinations of atoms are possible in different environments
+where temperature, pressure, number of different atoms present etc. varies.
+Molecules have new properties like possible un-even distribution of electric
+charge and 3-dimensional shape. Shape and electric charge affect how different
+kind of molecules "fit together" and interact together - interaction here
+means transferring of electron from one molecule to another or molecules may break
+and their atoms get rearranged into yet new molecules - these are called chemical
+reactions. 
+
+As molecules as new layer on top of atom-layer adds new properties and new interactions
+that don't occur with "plain" atoms, each layer still must obey rules of all underlying
+layers. With molecules it means that molecules still must be made of atoms found
+from periodic table and atoms must be mostly made of up+down quarks and electrons. 
+
+Important concept in chemical reactions is
+\chref{https://en.wikipedia.org/wiki/Catalysis}{catalysis} where catalyst is a substance
+(a molecule) that, when present in the soup where chemical reaction occurs the catalyst
+changes the reaction. Catalyst has such a shape or electric distribution that it makes
+other molecules in the soup to fit together in different ways compared to situation
+where catalyst is not present. Catalyst can change speed of reaction (how many molecules
+are created or split apart in one second) or yield of the reaction (how many \% of starting
+material molecules gets converted into resulting molecules). Humans design catalytic
+molecules for different purposes but many naturally occuring molecules have catalytic
+properties.
+
+\section{Autocatalytic molecules}
+\chref{https://en.wikipedia.org/wiki/Autocatalysis}{Autocatalytic} reaction is important
+"special case" of catalysis. Molecule is autocatalytic if it can catalyze reaction
+of itself. Simply, if there are building blocks of autocatalytic molecule around and
+one autocatalytic molecule, presence of autocatalytic molecule will cause building
+blocks (atoms, other molecules) to arrange into similar molecule as the original autocatalytic
+one. It can be understood that autocatalytic molecule can produce a copy of itself
+given that there are required building blocks available. As autocatalytic process
+advances, also number of resulting autocatalytic molecules increases and each molecule acts as a
+catalyst, speed of autocatalytic reaction could increase until shortage of starting
+materials starts to make reaction not possible any more.
+
+Nature of chemical reactions is that usually not 100\% of staring materials is
+converted in reaction and also there may be several slightly different resulting
+molecules. For example many organic molecule building blocks fit together so that
+resulting molecule is twisted either to left or right side. Mixture containing
+both left+right organic molecules is called
+\chref{https://en.wikipedia.org/wiki/Racemic_mixture}{racemic mixture}. Another possible
+source of variation is situation where starting material building block (atom or other
+molecule) is substituted with another substance that is still chemically close enough
+to "usual" building block. Example might be that
+\chref{https://en.wikipedia.org/wiki/Lithium}{lithium} is one building block of
+molecule. It happens that no lithium atom is available during reaction but 
+\chref{https://en.wikipedia.org/wiki/Sodium}{sodium} atom is. Lithium and sodium
+have similar electron configuration in outer shell and may substitute each
+others in some chemical reactions. Simple examples are lithium chloride and sodium chloride.
+Following observations must be made
+\begin{itemize}
+\item Lithium chloride and sodium chloride are different chemicals and have
+      different behavior towards other materials.
+\item Both lithium atom and sodium atom will happily create a bond
+      with single chloride atom, because electron configurations are similar enough.
+\end{itemize}
+\subsection{Life does exist}
+Autocatalytic reaction is no different from any chemical reaction ; there
+may be variation in resulting molecules, in other words not all copies are exactly
+like original. Shape of molecule may be different, some atoms and other building blocks
+may have been replaced with "compatible" parts. Because molecule is then different, it will
+also react differently. Differences may make it stronger or weaker catalyst. 
+If new building block was introduced and that particular building block is available
+in environment in large quantities, it may enable continuing the autocatalytic reaction
+also after all original building blocks were already used. In autocatalytic reaction having
+diverse set of starting materials around the following happens:
+\begin{itemize}
+\item Copies are made,
+\item Not all copies are similar,
+\item Infinite number of copies is not possible.
+\end{itemize}
+this leads to situation where "best" configurations of autocatalytic molecule are found
+in mixture in greatest concentrations. "Best" may be measured for example by following
+traits:
+\begin{itemize}
+\item Is strong catalyst e.g. speed and yield of reaction is high. High does not
+      need to be high in absolute terms. It just needs to be higher than any
+      "competiting" configuration of autocatalytic molecule.
+\item Molecule is stable, e.g. it does not break easily.
+\item It is made only of building blocks that are available in large quantities
+      in environment. 
+\end{itemize}
+The molecules that better than others implement the "best molecule" metrics then
+appear in resulting chemical soup more often than others. This natural process of
+selection is called \chref{https://en.wikipedia.org/wiki/Evolution}{evolution}
+and it starts functioning always when copies of something are made, not all copies
+are similar and there may be only finite number of those copies in existence.
+
+Currently best known autocatalytic molecule is \chref{https://en.wikipedia.org/wiki/DNA}{DNA}
+that is found inside cells of all organisms that people tend to call "living". DNA
+is result of evolution. It has ancestors. Most likely those ancestors are no more,
+all material (atoms, small molecules) that those ancestors were made of have been used
+to build next generations of the ancestor - they may be present inside modern configuration
+of DNA but are difficult to trace. DNA is super complex molecule. Its early ancestors
+must have started small. Studies have been made about what kind of "original" autocatalytic
+molecule could have been, for example in
+\chref{https://www.eurekalert.org/news-releases/939921}{Rutgers university}
+and
+\chref{https://www.frontiersin.org/articles/10.3389/fmicb.2021.793664/full}{Düsseldorf and Vienna}. 
+
+\section{Forces of interaction}
+In terms of layers and interactions between layers the list of layers now looks something like
+in table 2:
+\begin{table}[h!]
+\begin{center}
+\begin{tabular}{l|l|l}
+\textbf{Constituents} & \textbf{Forces} & \textbf{Result of layer} \\
+\hline
+Quarks & Bosons & Sub-atomic particles \\
+Sub-atomic particles + Electron & Electromagnetic attraction & Atoms \\
+Atoms & Chemical bonds & Molecules \\
+Molecules & Chemical bonds & More complex molecules \\
+Complex molecules & Chemical bonds & Autocatalytic molecules\\
+\end{tabular}
+\caption{Layers of particles that ordinary matter is made of}
+\end{center}
+\end{table}
+
+Autocatalytic molecules from table above don't necessarily need to be complex but DNA is.
+In basic interactions the "molecule" layer adds some new properties to interactions
+between different molecules, like shape and electric charge and distribution of electric
+charge between different parts of the molecule. "Autocatalytic molecule" above is
+presented as layer of its own but basically it is just molecule in chemical reaction.
+It has anyway one new interesting property and that the number of copies it can
+make of itself in every possible environment. Here environment means mixture of
+different chemicals, for example sea water or less salty river water. 
+
+\section{Viruses, cells and single-celled organisms}
+Today modern DNA produces not only copies of itself but also contains
+molecular mechanism for producing number of supporting molecules, called
+\chref{https://en.wikipedia.org/wiki/Protein}{proteins} that make
+autocatalysis of DNA more safe, error-free and enables it to happen
+in more diverse environments. Current understanding is that first
+\chref{https://en.wikipedia.org/wiki/Viral_evolution}{viruses} appeared
+about same with \chref{https://en.wikipedia.org/wiki/Cell_(biology)}{cellular
+organism} and it is difficult to say which was first. Today
+viruses require a cell to replicate themselves. Cell in turn is
+support mechanism that DNA has building instructions for. Situation today
+is that all identified complex lifeforms are made of cells. There are
+life forms consisting of only one cell - DNA is packed safely inside
+protecting \chref{https://en.wikipedia.org/wiki/Cell_membrane}{cell membrane}
+and some \chref{https://en.wikipedia.org/wiki/Unicellular_organism}{single
+celled organism} have DNA for instructions to grow
+\chref{https://en.wikipedia.org/wiki/Flagellum}{hair-like} appendices
+for swimming around. Thing to note here is: \emph{cell is support mechanism
+for DNA to replicate itself} in environment where other organism might
+utilitize (say: eat) DNA building blocks to make copies of itself and
+where finding of all required building blocks for DNA replication requires
+a little bit of swimming around.
+
+Comparing to previously presented list of "best molecule" metrics
+the \chref{https://en.wikipedia.org/wiki/Protein}{protein} makes sense
+very much: \chref{https://en.wikipedia.org/wiki/Enzyme}{enzymes} are
+class of proteins that break down other proteins and also
+\chref{https://en.wikipedia.org/wiki/Deoxyribonuclease}{DNA} itself.
+Any DNA configuration that has developed mechanism for disassembling
+DNA building blocks from nearby organisms is in great advantage in
+making copies of itself compared to DNA configurations that don't
+contain instructions for such behavior. Notable thing here is that
+\emph{behavior is determined by laws of physics and chemistry}. DNA
+strain that is complex molecule can not have functions that humans
+call "thinking", "seeking of goal" or "conscience", instead its
+survival is determined by how well it implements the "best molecule"
+practices. Those practices may be different in different environments
+or vary from time to time but it is merely a chemical process with no
+conscience that drives evolution of DNA into direction where resulting
+DNA implements environmental requirements in best way. And "best"
+is measured by number of DNA copies, only. It doesn't necessarily
+mean "more complex", "more friendly to nearby DNA constructs" or
+"more bound to develop proteins that code Frank Zappa\footnote{Not even in 
+the night of the iron sausage} music in understandable way". 
+
+Viruses today are "free floating" DNA snippets that require living cell
+to replicate. They anyway contain instructions for their own replication,
+often with some \chref{https://en.wikipedia.org/wiki/Influenza}{side-effects}
+for the cell doing the replication. Viruses have evolution of their own,
+they compete in how to best infect cells to make them produce copies
+of the virus. From perspective of this paper viruses are entity that
+is capable of copying functional DNA sequences from one living cell to
+another e.g. copying instructions for codeing some protein ( == complex
+molecule having specific chemical properties) from one life-form to
+another. In single-celled organism the addition or replacement to
+DNA of the cell is immediately inherited to descendants of the
+single-celled organism. 
+
+When continuing the above-presented table of "layers of ordinary matter"
+here comes a jump. Previously layers for most part were constuctions of
+particles from underlying layer. Here, next layer is constucted from
+information it carries using order of particles from underlying layer.
+
+\begin{table}[h!]
+\begin{center}
+\begin{tabular}{l|l|l}
+\textbf{Constituents} & \textbf{Forces} & \textbf{Result of layer} \\
+\hline
+Quarks & Bosons & Sub-atomic particles \\
+Sub-atomic particles + Electron & Electromagnetic attraction & Atoms \\
+Atoms & Chemical bonds & Molecules \\
+Molecules & Chemical bonds & More complex molecules \\
+Complex molecules & Chemical bonds & Autocatalytic molecules (DNA)\\
+Complex molecules like amino acids of DNA & Order of amino acids & Proteins\\
+Proteins and simple molecules & Protein structure & Cells + single cell organisms\\
+\end{tabular}
+\caption{Layers of particles that ordinary matter is made of}
+\end{center}
+\end{table}
+
+in table 3 above the "forces" column lists the source of information
+how next layer is constructed but there is more: cells and single-cell
+organisms have ways of interacting with each other also after their
+constuctions on complete. Single-cell organism interact with numerous
+ways. One way is predator-catch interaction where one organism consumes
+another as food. More complex interactions are detailed in
+\chref{https://www.sciencedirect.com/science/article/pii/S2452310021000081}
+{article} "The landscape of cell–cell communication through single-cell 
+transcriptomics" where information transfer between single-cell organism is
+believed to be mostly using biochemical signaling e.g. exchange of various
+molecules.
+
+If previously signaling or information exchange between particles of
+ordinary matter have been mostly defined by mass(==frequency) of
+particle, here comes a fundamental change: information between
+single-cell organisms is exchanged in
+form of order of elements (like amino acids) or order of atoms (causing
+specific 3-dimensional shape of molecule that affects ways how subsequent
+chemical reactions proceed).
+\section{Multi-celled organisms}
+Multi-celled organism is similar to single-celled but with (at least)
+following additional features:
+\begin{itemize}
+\item DNA has instructions for producing different kind of cells for
+      different purposes. Each cell has copy of same "build instructions"
+      in form of DNA but there is \chref{https://en.wikipedia.org/wiki/Hox_gene}
+      {mechanism} to selectively use only parts of DNA for each cell
+      depending on its purpose. "Purposes" for humans include cells
+      for skin, blood and brain etc. that are all different, human
+      body has around 40 different issue types coded in DNA.
+\item There may be specific system for communication between cells inside
+      multi-celled organism called
+      \chref{https://en.wikipedia.org/wiki/Nervous_system}{nervous system}
+      that sends information between other cells. System consists of
+      cells whose sole purpose is to send information between other cells.
+      Information here means things like "fingertip is too hot", which
+      in successful case would translate into muscle cell nervous command
+      telling the finger muscles to get fingertip away from heat source.
+\item Alone cell that is differentiated for purpose is usually not
+      able to live without its friends that are coded in the same DNA.
+      This is stark differience compared to single-celled organism.
+      Each single-celled organism can live and make copies of itself
+      by its own means. Individual multi-celled organisms can't live or
+      make copies of themselves if not all different cell types coded
+      in its DNA are present and in correct places in its body. Many
+      multi-celled organisms have specific cell types only for sharing the DNA,
+      for example \chref{https://en.wikipedia.org/wiki/Sperm}{sperm cell}
+      and \chref{https://en.wikipedia.org/wiki/Egg_cell}{egg cell}
+      that together contain enough DNA to produce fertile decendants.
+      Methods in so-called sexual re-production where DNA from both
+      parents is required has actually many variations, for example there
+      are animals and plants
+      capable of \chref{https://en.wikipedia.org/wiki/Heterogamy}{heterogamy}
+      or animals like ants that don't divide DNA equally
+      between \chref{https://en.wikipedia.org/wiki/Ant\#Reproduction}
+      {father and mother}.      
+\end{itemize}
+Important thing to notice here is that \emph{multicellular organisms
+communicate with other multicellular organisms using means and language
+that single-celled organisms don't have.} Multi-cellular organisms
+have specific cell-types for communication, like cell-types for
+\chref{https://en.wikipedia.org/wiki/Hearing}{hearing} and
+\chref{https://en.wikipedia.org/wiki/Visual_perception}{seeing}
+and some cell-types do not participate at all what it comes
+to communication with other cells around. All this is not so simple,
+there is still plenty of single-celled organisms around like
+\chref{https://en.wikipedia.org/wiki/Bacteria}{bacteria} that will try
+to communicate with each and every cell around, including cells of
+multi-celled animal. Compound of cells, that is called "multi-cell organism"
+starts to behave like single entity, having its own communication methods
+and maybe also reproductive goals that maybe are partly focused
+to re-production of single cell but also focusing in re-productive
+success of the whole, whole here being collection of DNA strains
+for each and every cell type in the multi-cell organismn. 
+
+There is evolution of single-cell organism DNA but with multi-cell
+organism it is the DNA of the multi-cell organism (like human) that
+gets replicated as whole, so the superset of DNA of all differentiated
+cells in multi-cell organisms becomes unit evolution drives
+to "best molecule" objectives. "Best molecule" objectives become much
+more complicated here. Some set of DNA of multi-cell organism may have
+superior set of building instructions for escaping predators, other set may have
+superior set of building instructions for finding food
+and all this in comparison to other organism in varying environments.
+
+\begin{table}[h!]
+\begin{center}
+\begin{tabular}{l|l|l}
+\textbf{Constituents} & \textbf{Forces} & \textbf{Result of layer} \\
+\hline
+Quarks & Bosons & Sub-atomic particles \\
+Sub-atomic particles + Electron & Electromagnetic attraction & Atoms \\
+Atoms & Chemical bonds & Molecules \\
+Molecules & Chemical bonds & More complex molecules \\
+Complex molecules & Chemical bonds & Autocatalytic molecules (DNA)\\
+Complex molecules like amino acids of DNA & Order of amino acids & Proteins\\
+Proteins and simple molecules & Protein structure & Cells + single cell organisms\\
+Single cell organisms & Nervous system & Multi-cell organisms\\
+\end{tabular}
+\caption{Layers of particles that ordinary matter is made of}
+\end{center}
+\end{table}
+
+In table above only "nervous system" is listed as communicating
+force between single cells and members of multi-celled organism.
+It is not only one but it is the most important. Some "single cells"
+differentiate to become carriers of information between other cells. Result
+is that multi-celled organism can have objectives shared between different
+cell types like muscle, blood and nervous. Here happens same thing
+when sub-atomic particles form an atom - it starts to communicate
+with other atoms in different means than sub-atomic particles do.
+Here happens same thing when atoms group together to form molecules -
+molecules start to interact with other molecules in methods that
+are unknown or alien to single atoms. Here happens same thing
+where constituents of complex autocatalytic molecule form
+single-cell organism - single cell organism starts to communicate and
+have goals (or interpretation of "best molecule" practices) that
+has wider objectives than structure of autocatalytic molecule
+that does not contain instructions for cell membrane or other
+"utilitiary functions" a cell may have.
+
+Groups start to behave like single entity. This concerns communication
+between entities in same layer but also common reproductive goals.
+
+\section{Groups of multi-celled organisms}
+Some single-cell organisms form groups that exhibit group behavior. Example
+is \chref{https://en.wikipedia.org/wiki/Dental_plaque}{dental plaque}
+that seems behave differently depending on number of its own
+species in neighbourhood. Measurement is maybe done using
+amount of biofilm it generates.
+
+Some multi-celled organisms are not teamplayers. Most still require
+partner for mating so at least temporary team-play is a requirement.
+Team-play doesn't necessarily need to be friendly in terms of
+well-being of multi-cellular organism, like in
+\chref{https://www.nationalgeographic.com/animals/article/spiders-mothers-cannibals-arachnids}{this example}
+that in turn may be beneficial for species if number of DNA copies
+in the environment is counted. Organism, is it single-cell or multi-cell
+is always extension to DNA that is used to produce copies of
+autocatalytic DNA molecule. In DNA terms "success" is counted
+only as number of similar DNA strains in the vicinity. Wasp is not
+a wasp. Wasp is vehicle that DNA-strain called "Wasp DNA" uses to
+make more copies of wasp DNA strains. This vehicle has many virtues
+like building a nest, flying around, protecting offspring and
+finding the best queen to mate with. Carrot is not a carrot. Carrot is
+vehicle that DNA-strain called "Carrot DNA" uses to make more copies
+of carrot DNA strains. This vehicle has many virtues like producing
+seeds, looking eatable to humans so they'll carry seeds around for
+planting purposes etc. 
+
+\subsection{Language}
+Some forms of communication from earlier "layers of particles that ordinary
+matter is made of" can be considered methods of group communication. Example is
+electromagnetic attraction that at least slightly "visible" to all
+electronically charged molecules nearby. Topic of this chapter anyway
+is multi-cellular organisms that have dedicated cells or cell structures
+for communication between other organisms, let it be same species or
+other. These structures include organs like hands for making gestures,
+eyes for seeing those gestures, vocal cords for producing voices,
+ears for hearing those voices and neural cells capable of learning
+writing and reading of alphabet so that written communication becomes
+possible. 
+
+Complex multicellular organisms have complex nervous system capable of
+remembering, observing and imitating. Combining imitation and remembering
+enables \emph{learning} from other group members. Evolution of language
+as feature of multicellular organism must have started with expressions
+like calls of warning or mating. In humans and maybe some other
+vertebrates ability to imitate gestures and sounds has led to development
+of \chref{https://en.wikipedia.org/wiki/Language}{languages} that may be
+spoken, \chref{https://en.wikipedia.org/wiki/American_Sign_Language}{signed}
+with gestures, written and
+\chref{https://en.wikipedia.org/wiki/Internet_protocol_suite}{transmitted}
+electronically around the globe, just to give a few examples. Before
+emergence of \emph{general purpose language capable of describing
+any phenomena or event} each individual could remember only things
+it had witnessed in person. Language enables sharing of memories, enables
+individuals from group take into considerations descriptions (let them
+be false or true) of events and things originally witnessed by other
+group members, maybe long time ago. Result is \emph{group knowledge}
+that can include more facts and skills than any individual group
+member with limited brain capacity could alone handle, know and use
+in decision-making. Ideas or \chref{https://en.wikipedia.org/wiki/Meme}{memes}
+mediated by language can directly contribute DNA replication of individual
+who remembers and acts out an idea, for example porridge making.
+Individuals who don't know how to make porridge may be at disadvantage
+compared to porridge-making individuals in terms of arranging DNA
+building blocks required for DNA replication. Other ideas like
+\chref{https://en.wikipedia.org/wiki/Birth_control}{birth control}
+may have also impact on DNA replication. Yet other ideas like
+usage of \chref{https://en.wikipedia.org/wiki/Fidget_spinner}{fidget spinner}
+maybe less so. Humans are not agnostic to these ideas. Those ideas
+that are useful like porridge-making, funny like good jokes or ideas
+that trigger powerful emotions like awe, fear or love are more likely
+to be re-told to other group members. These ideas have following properties
+\begin{itemize}
+\item Humans, maybe other vertebrates too, make copies of ideas by
+      sharing them using language. Copies are stored in memory of
+      each individual.
+\item Copies are not identical because humans sometimes describe
+      things incorrectly, understand incorrectly and also over time
+      tend to remember facts incorrectly. Humans also sometimes
+      make new discoveries like "novel method for peeling 200
+      potatoes under one minute using bare hands only" that are
+      then re-told and humans also make blatant lies for various
+      purposes like "it is possible to peel 200 potatoes in one minute".
+\item There is only limited number of memory locations (== individual
+      heads with brain and memory inside) available.
+\end{itemize}
+Result is similar selection of \emph{best ideas} in
+\chref{https://en.wikipedia.org/wiki/Evolution}{evolutionary process} as
+happens with autocatalytic molecules. Unit that is selected is
+an idea or story, something that can be told or shown or imitated.
+Where landscape of autocatalytic molecules is a chemical soup, here
+landscape of replicating ideas is language, physiology and psychology
+of group members. "Best idea" metrics could include things like
+\begin{itemize}
+\item Is so useful to individual that it gets re-told, like methods
+      of building hunting weapons.
+\item Makes lasting memory, like idea that touching broken electric
+      wire may cause electric shock and that may trigger fear of
+      injury or death.
+\item Triggers or mediates some psychological need, like willingness
+      to be loved or desire to control behavior of other group members. 
+\end{itemize}
+List above is longer. Language itself is an idea subject to "best idea"
+metrics and languages do indeed evolve. While chemical evolution is
+mostly random, evolution of ideas has additional strong "intentional" component
+in it. Language if not enables, at least greatly facilitates
+\chref{https://en.wikipedia.org/wiki/Herd_behavior} {herd behavior}.
+
+\subsection{Herd behavior}
+In biological evolution the unit that is selected is DNA inside cells
+of individual, this applies also to herd members. Uniform or compatible
+behavior between group members may still contribute to DNA strains
+chances of getting copied. Examples of beneficial group behaviors
+could be fending off an attacker together or maintaining hygiene
+together for getting rid of a disease. Human is herd-animal too.
+Many herds or groups of humans are such that members of the group are
+not equal in terms of capabilities and responsibilities between
+group members - different \chref{https://en.wikipedia.org/wiki/Pack_hunter}
+{roles between group members} predate emergence of general purpose
+language but language must make definition of different roles inside group
+more precise, if not easier. For successful co-operation group members
+must share at least partially compatible set of ideas in their memory.
+Modern herds are formed around geographical locations, biological relatedness,
+profession or subject of interest ; anything where human can "belong to".
+Typical human belongs to multiple herds at the same time, for example
+via citizenship, employment and membership to a sports club. Some
+of these organizations are such that organization members share common
+ideas about roles, privileges and responsibilities - most notably
+nation-states often have concept of written "law" that may define
+roles like "foreign minister", "educator" or "social worker" and
+define some of their responsibilities inside organization. Notable thing
+here is that language facilitates this behavior. Another notable thing is
+that these groups develop means of communications and interactions
+between other similar groups. Humans understand and sometimes accept this
+notion. Examples are statements like "Inter Milan football club wins
+Serie A" - statement does not list individual athletes in the club,
+instead club is an entity that plays, does, wins, loses, gives statements.
+Communication like scoring a goal or objecting to referees judgement
+still happens between humans but they're understood to re-present the
+group, organization or herd. The group may have obligations towards its
+members, like salary, right to education or health care, group members may have
+obligations towards group, like military service. Group behavior
+gives emergence of concepts that make no sense between single human
+individuals only, for example "foreign debt" or "economic zone".
+\emph{Group of individuals may start behaving like single entity,
+these entities evolve their own language and concepts that are relevant
+to group-entities.}
+
+\begin{table}[h!]
+\begin{center}
+\begin{tabular}{l|l|l}
+\textbf{Constituents} & \textbf{Forces} & \textbf{Result of layer} \\
+\hline
+Quarks & Bosons & Sub-atomic particles \\
+Sub-atomic particles + Electron & Electromagnetic attraction & Atoms \\
+Atoms & Chemical bonds & Molecules \\
+Molecules & Chemical bonds & More complex molecules \\
+Complex molecules & Chemical bonds & Autocatalytic molecules (DNA)\\
+Complex molecules like amino acids of DNA & Order of amino acids & Proteins\\
+Proteins and simple molecules & Protein structure & Cells + single cell organisms\\
+Single cell organisms & Nervous system  & Multi-cell organisms\\
+Multi-cell organisms & Language, ideas & Tight group-behavior \\
+Individuals in group & Inter-group concepts & Actions between groups \\
+\end{tabular}
+\caption{Layers of particles that ordinary matter is made of}
+\end{center}
+\end{table}
+
+Table of layers has now conceptional jumps, and it should be divided
+into 2 directions. One direction is presented above, language knits
+individuals into groups that have some internal organization and order,
+tight or loose. Language can also be separating element, for example
+speakers if different languages may feel alien to other residents
+of same geographical area that speak some other language. In "group
+concepts" single individual is not topic of discussion any more than
+single muscle cell in a healthy human individual. Human individual is usually
+referenced as a whole, including all its cells with DNA inside. Same
+happens here, humans have developed a concept where "Inter Milan wins"
+or "Sweden develops a new vaccine" with no need to list individual
+athletes or scientists.
+
+Second "direction" in table above would be to explore how ideas get grouped
+together to form "group of ideas" that maybe get communicated e.g. copied
+together. This is discussed in next chapter. 
+
+\section{Culture}
+Some ideas come in groups. Origin and evolution of some groups of ideas is
+\chref{https://en.wikipedia.org/wiki/Intellectual_history}{subject
+to scientific research}. Human mind mostly works so that badly contradicting
+ideas can't be considered true at the same time. Statements like "entrance
+to building is found behind a corner", "all buildings are round", "every
+building has an entrace" make together little sense so their chances
+of getting re-told together might be small. They're 3 individual ideas anyway,
+but together make up only nonsense. Some groupings would make sense,
+like "method for planting potatoes", "calendar for determining best time
+to plant potatoes", "cookbook of most delicate servings of 200 potatoes"
+that could be part of idea-group called "agriculture".
+
+\chref{https://en.wikipedia.org/wiki/Culture}{Culture} can be almost
+any kind of grouping if grouped ideas make sense together. Or idea
+doesn't need to "make sense" - example is rainbow colors that some individuals
+considering themselves as part of LGBT culture tend to display. It can
+be argued that rainbow features every color of visible light spectrum
+and is that way suitable symbol for that particular culture. Selection
+of symbol is anyway arbitrary, instead depiction of selected animal
+or flower would do same job in identifying members of the culture.
+Raibow is currently used, it may change in the future. Currently
+"set of ideas" that are contained under umbrella "LGBT culture" comes
+with a rainbow symbol because some early activists started to use that.
+Once in use, usage tends to stick until there is good reason to replace it.
+
+\section{Cultural evolution}
+Cultures evolve as ideas inside culture evolve. Cultures may also
+acquire new ideas to be included in the culture. For example
+fish-eating population having rich culture regarding catching and
+preparing fish but knowing nothing about potatoes comes across an
+individual carrying kettle of boiled potatoes. Should they purposefully
+or accidentally mix boiled potatoes with fish, result might be
+new cultural item "fish soup with potatoes" that soon would be in
+minds of almost every member of fish-eating population, of course
+not counting the conservative puritans that say that "fish is a fish
+and should be eaten just as it is".
+
+New additional idea to culture needs to have some appeal to members
+of the culture. It may be taste, like in fish-soup. Or useful skill
+like counting days from calendar. Or promise that fills a psychological
+need like "after death martyrs go to heaven". Surely all non-trivial
+cultures include some ideas that are true and some ideas that are not true.
+Lies may be included because they can, especially if they are hard
+to prove false and if they trigger some strong emotion in humans,
+making the whole culture appear more strongly in individuals mind.
+Many cultures that define nation-states or religions include stories
+that include depictions of death, love, fraud or trust etc., items that
+trigger strong emotions in most individuals. Not every idea inside
+a culture needs to be true, or not blatantly exaggerated to be useful
+for the culture.
+
+Biological evolution and multi-cellular organisms often deploy some sort
+of \chref{https://en.wikipedia.org/wiki/Immune_system}{immune system}
+that is supposed to keep invading or alien DNA from being copied
+in cells of the organism. Cultural evolution doesn't have anything
+very sophisticated for the same purpose. Racism towards individuals
+identified to entertain another culture may be one adaptation into that
+direction. It doesn't target ideas, instead it targets individuals
+with the idea. Different languages may also act as "natural barriers"
+between some cultures. Nowadays common ability for humans to understand
+more than one language makes this barrier leak quite a bit. 
+
+\section{Conscience and limitations of biology and culture}
+Evolution of cultures is a must-have thing, unstoppable process.
+Every bigger culture that author is aware of has some ideas inside that make
+human life miserable if acted out. And some ideas that make human life good
+if acted out. Culture as set of stories to act out as human is very defining
+aspect of human life for many individuals. Many humans exercise very little
+selection over individual ideas in a culture they feel being part of and act out
+stories and beliefs in real life without much consideration. 
+\subsection{Between a rock..}
+Human as a regular multicellular organism is constrained by its building
+instructions that it carries coded in DNA inside every cell. DNA replication
+is automatic process, it happens when required building blocks are in
+place and laws of chemistry feel no mercy. Building blocks must be
+gathered, environmental conditions in body like temperature and
+acidicity must be maintained or DNA-copying vehicle called "human body"
+will gradually stop working. Chemical process like replication of DNA
+doesn't have concepts of "good" or "evil", reaction will be triggered
+when required starting materials are in place. This is how autocatalytic
+molecules work. Some behaviors like willingness to seek food, avoid
+predators and produce offspring are coded into DNA - humans don't need
+to learn to seek food, it happens naturally, usually parents help a bit
+with techniques \emph{how to seek food} but human baby will try to seek food
+naturally from day one after it is born. Many
+\chref{https://en.wikipedia.org/wiki/Big_Five_personality_traits}{personality
+traits} are partly inherited, partly dictated by environment and
+childhood experiences. That in turn is largely guided by something 
+called "culture". 
+\subsection{..and a hard place}
+Just like DNA-copying chemical reaction has no conscience, culture as a
+set of ideas is not self-ware, it does not think without help from human,
+it can be considered a virus a the mind that affects behavior of its
+host, usually including behavior that spreads the culture to more
+minds and tries to restrict competeting cultures from reaching the
+already-infected mind.
+\subsection{Of conscience and science}
+In "layers of particles that ordinary matter is made of" the layer
+"multi-cellular organisms" is one and only that has processes implementing
+self-awareness, self-reflection, notion of good (using metrics like "to whom",
+"when", "at what cost" etc.) and emotions like feeling of hope.
+Chemical process has no feelings. Set of ideas has no feelings.
+Humans act out requirements set by biology, ultimately goals set by
+DNA replication. Humans act out requirements set by culture they feel
+they belong to. Some cultures may employ psychological tricks in
+infected mind, like triggering guilt or fear if elements of culture
+are not acted out, for example threats of miserable afterlife.
+
+Our own biology we can't change very much. Attempts to tamper with human
+DNA can come with very unexpected side-effects and may be really difficult
+to reverse if gone wrong. Humans are still not held accountable to
+any large chemical. For example, if DNA is prevented from being
+copied using \chref{https://en.wikipedia.org/wiki/Birth_control}{birth
+control} it will not feel bad or try to retaliate. Humans don't need to
+be slaves to biology but instead understand its limitations, what is possible
+and what is not. This includes as well physiological limitations as
+limitations of human mind that \chref{https://en.wikipedia.org/wiki/Psychology}
+{psychology} studies.
+
+Our own culture we can change as we will. Biological viruses need
+a host cell to replicate, sometimes replication ends with errors
+that sometimes are beneficial for the virus. Ideas and cultural items
+need brain and mind to replicate, sometimes replication ends
+with errors that sometimes are beneficial for the virus. The brain
+and mind doing the replication have control over what is copied,
+when is copied, why is copied. Humans do things, do good things,
+sometimes do stupid things, any of these are candidates for imitation
+and thus candidates to become part of cultural heritage.
+
+Most humans come equipped with working conscience and some understanding
+about what is good and what is not. "Good" is extremely difficult concept,
+there it needs to be considered at least
+\begin{itemize}
+\item Good to whom - self or someone else?
+\item When, immediately or maybe later, maybe during long period of time
+\item What are consequences of not implementing the good thing
+\end{itemize}
+
+Humans, as a race or individual are not held accountable to a set of
+ideas. If some ideas in the set get modified, replaced or forgotten
+the culture is not going to feel bad or try to retaliate. Some cultures
+come with concept of "law" or "football club rule of order" that may
+contain rewards or punishments to individuals depending on how they act
+out the cultural ideas. Humans should not consider themselves to be
+slaves of their culture but instead consider each and every idea
+pending implementation in light of conscience, measure its goodness
+in relation to self and also other living organisms, living now and
+coming after us.
+
+Together with conscience should in parallel be applied
+\chref{https://en.wikipedia.org/wiki/Science}{science} that includes
+measuring, validating, testing hypothesis and building knowledge.
+Repeatable measurements and findings are more likely to be true.
+If culture itself defines something to be true or false, scrutiny
+may be in order, information may be outdated and some cults
+even encourage members of the cult for lying. Lying may be telling
+false facts about leader-figure of the cult and upon hearing the
+falsehoods, other members of the cult recognise the individual as
+one who is willing to trade his reputation to membership in the cult.
+Reputation e.g. trust in others that individual speaks the truth
+is in most circles considered valuable. If individual is willing to sacrifice
+this valuable feature by telling lies in public, he clearly values the
+cult membership more than his own reputation and so may be accepted to
+cult. Typical lies are claims that everybody knows as false, for example
+so-called "miracles".
+
+With knowledge of the world and its workings it may be possible to gain
+a little bit of wisdom about how to act out, what to do, what to not do.
+This is even more difficult than considering good and bad in light
+of the conscience. Humans might need a cultural evaluation culture
+for developing stories, methods, acts and rules purposefully.
+This needs to be a continuous group exercise.
+
+\end{document}
